@@ -1,0 +1,16 @@
+.card1 {
+  grid-area: card1;
+  background: gray;
+  /* height: 100px; */
+}
+
+.card2 {
+  grid-area: card2;
+  background: aqua;
+  height: 100px;
+}
+
+.card3 {
+  grid-area: card3;
+  background: magenta;
+}

@@ -1,0 +1,45 @@
+.nav-bar-top {
+  background-color: var(--primary-color-1);
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--divider-line-color);
+}
+
+.nav-bar-login {
+  width: 90%;
+  grid-area: nav-bar;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--font-normal);
+}
+
+.search-field {
+  display: flex;
+  align-items: center;
+}
+
+.options {
+  display: flex;
+}
+
+.nav-bar-options {
+  background: var(--primary-color-1);
+  width: 100%;
+}
+
+.nav-bar-options ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar-options ul li ul {
+  display: flex;
+  flex-flow: column;
+}
+
+.options {
+  width: 90%;
+}

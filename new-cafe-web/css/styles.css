@@ -1,0 +1,32 @@
+@import url(navigation-bar.css);
+@import url(cards.css);
+@import url(footer.css);
+@import url(reset.css);
+@import url(colors.css);
+
+body {
+  margin: 0;
+  font: 10px;
+}
+
+:root {
+  --font-normal: 1rem;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-rows: repeat(11, auto);
+  grid-template-areas: 
+  "nav-bar"
+  "card1"
+  "card2"
+  "card3"
+  "card4"
+  "card5"
+  "card6"
+  "card7"
+  "card8"
+  "card9"
+  "card10";
+}
