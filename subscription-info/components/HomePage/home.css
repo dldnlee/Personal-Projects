@@ -1,0 +1,42 @@
+.home-container {
+  color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  row-gap: 15px;
+  padding: 40px;
+}
+
+.home-hook-text {
+  font-size: 4rem;
+  font-weight: 600;
+  width: 500px;
+  text-align: center;
+  margin: 0;
+}
+
+.home-description {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 200;
+  line-height: 2.4rem;
+  word-spacing: 2px;
+  width: 500px;
+  margin: 0;
+}
+
+.home-link-container {
+  display: flex;
+  column-gap: 20px;
+}
+
+
+
+.register-link.trial-link {
+  background: gray;
+}
+
+.home-container img {
+  width: 1000px;
+}

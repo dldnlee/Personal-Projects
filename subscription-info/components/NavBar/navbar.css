@@ -1,0 +1,19 @@
+.navbar-item-container {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.navbar-logo {
+  width: 150px;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  column-gap: 50px;
+  
+}
+
